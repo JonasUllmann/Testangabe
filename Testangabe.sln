@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ue3_sewtestangabe", "ue3_sewtestangabe\ue3_sewtestangabe.csproj", "{93609AE5-9024-4911-8551-A3A1C1BB1225}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ue3_sewtestangabe", "ue3_sewtestangabe\ue3_sewtestangabe.csproj", "{93609AE5-9024-4911-8551-A3A1C1BB1225}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEW3Test_buchliste", "SEW3Test_buchliste\SEW3Test_buchliste.csproj", "{C0119F69-5ECF-4E50-B3A1-44579DB23FB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{93609AE5-9024-4911-8551-A3A1C1BB1225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93609AE5-9024-4911-8551-A3A1C1BB1225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93609AE5-9024-4911-8551-A3A1C1BB1225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0119F69-5ECF-4E50-B3A1-44579DB23FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0119F69-5ECF-4E50-B3A1-44579DB23FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0119F69-5ECF-4E50-B3A1-44579DB23FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0119F69-5ECF-4E50-B3A1-44579DB23FB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
