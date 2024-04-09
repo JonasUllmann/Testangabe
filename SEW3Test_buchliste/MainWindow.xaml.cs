@@ -9,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace SEW3Test_buchliste
 {
@@ -17,11 +18,32 @@ namespace SEW3Test_buchliste
     /// </summary>
     public partial class MainWindow : Window
     {
+        DispatcherTimer timer;
+        private bool state;
 
-        
         public MainWindow()
         {
             InitializeComponent();
+            timer = new DispatcherTimer();
+
+
+            timer.Interval = new TimeSpan(0, 0, 0, 0, 500);
+            timer.Tick += timer_Tick;
+            timer.Start();
+        }
+
+        public void timer_Tick(object sender, EventArgs e)
+        {
+            if (state)
+            {
+                btnadd.Background = Brushes.Gray;
+            }
+            else
+            {
+                btnadd.Background= Brushes.Red;
+            }
+
+            state = !state;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
